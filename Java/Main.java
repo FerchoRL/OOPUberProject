@@ -1,11 +1,11 @@
 package Java;
 
 class Main {
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         
-        UberCar Jetta = new UberCar();
+        final UberCar Jetta = new UberCar();
         Jetta.license = "AMQ132";
-        Jetta.passenger = 4;
-        Jetta.driver = "Andres me la pela";
+        Jetta.driver = "Andres";
+        Jetta.passenger = 4;    
     }
 }
