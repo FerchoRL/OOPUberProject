@@ -2,10 +2,10 @@ package Java;
 
 class Main {
     public static void main(final String[] args) {
-        
-        final UberCar Jetta = new UberCar();
-        Jetta.license = "AMQ132";
-        Jetta.driver = "Andres";
-        Jetta.passenger = 4;    
+        //TODO: Etiqueta para resaltar algo pendiente
+        Account uberAccount = new Account("Fernando Ramila","INE","rlfernando7@gmail.com","12345");
+        UberCar mazda = new UberCar("AMQ123",uberAccount);
+        mazda.passenger = 4;
+        mazda.printDataCar();
     }
 }

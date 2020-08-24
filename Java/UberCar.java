@@ -3,10 +3,15 @@ package Java;
 public class UberCar {
     Integer id;
     String license;
-    String driver;
+    Account driver;
     Integer passenger;
 
+    public UberCar(String license, Account driver) {
+        this.license = license;
+        this.driver = driver;
+    }
+
     public void printDataCar(){
-        System.out.println("License: "+license+" Driver: "+driver);
+        System.out.println("License: "+license+" Driver: "+driver.name);
     }
 }
