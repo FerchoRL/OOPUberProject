@@ -1,9 +1,9 @@
 class UberCar {
-    constructor(license, driver, passenger) {
+    constructor(license, driver) {
         this.id;
         this.license = license;
         this.driver = driver;
-        this.passenger = passenger;
+        this.passenger;
     }
     printDataCar() {
         console.log(this.driver)
