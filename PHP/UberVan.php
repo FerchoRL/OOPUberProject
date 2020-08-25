@@ -1,7 +1,7 @@
 <?php
     require_once 'UberCar.php';
     //How to use Inheritance in PHP
-    class UberBan extends UberCar{
+    class UberVan extends UberCar{
         public $typeCarAccepted;
         public $seatsMaterial;
 
