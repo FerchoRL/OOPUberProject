@@ -1,10 +1,10 @@
 from uberCar import UberCar
-from account import Account
+from user import User
 from uberX import UberX
 from card import Card
 if __name__ == "__main__":
 
-    uberDriver = Account("Fernando Lagunes","INE")
+    uberDriver = User("Fernando Lagunes","INE")
     mazda = UberCar("JDU394",uberDriver)
     print(vars(mazda.driver))
 
