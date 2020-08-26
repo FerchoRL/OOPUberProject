@@ -7,11 +7,11 @@
 </head>
 <body>
     <?php
-        require_once 'Account.php';
+        require_once 'User.php';
         require_once 'UberCar.php';
         require_once 'UberX.php';
         require_once 'Card.php';
-        $uberDriver = new Account("Fernando Lagunes","INE");
+        $uberDriver = new User("Fernando Lagunes","INE");
         $mazda = new UberCar("JWX934",$uberDriver);
         #print_r($mazda->driver->name);
 
