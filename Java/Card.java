@@ -7,7 +7,8 @@ public class Card extends Payment {
     String cvv;
     Date date;
 
-    public Card(String number, String cvv, Date date){
+    public Card(Float ammount, String number, String cvv, Date date){
+        super(ammount);
         this.number = number;
         this.cvv = cvv;
         this.date = date;

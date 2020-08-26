@@ -17,8 +17,7 @@ class Main {
         //SimpleDateFormat ft = new SimpleDateFormat ("yyyy-MM-dd"); 
         //Format our current date
         //Date dateFormated = ft.format(date);
-        Card userMethodPay = new Card("111999333888", "327", date);
+        Card userMethodPay = new Card((float) 39.4, "111999333888", "327", date);
         userMethodPay.printInformationCar();
-
     }
 }

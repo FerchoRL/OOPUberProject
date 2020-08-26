@@ -2,7 +2,9 @@ package Java;
 
 public class Payment {
     Integer id;
+    Float ammount;
 
-    public Payment(){
+    public Payment(Float ammount){
+        this.ammount = ammount;
     }
 }

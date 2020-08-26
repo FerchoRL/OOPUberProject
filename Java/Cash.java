@@ -1,7 +1,7 @@
 package Java;
 
 public class Cash extends Payment {
-    public Cash(){
-        
+    public Cash(Float ammount){
+        super(ammount);
     }
 }
