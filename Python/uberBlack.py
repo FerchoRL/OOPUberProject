@@ -7,6 +7,6 @@ class UberBlack(UberCar):
 
     def __init__(self,license,driver,typeCarAccepted,seatsMaterial):
         #Super class to inheritance. Use super()
-        super().__init__()
+        super().__init__(license,driver)
         self.typeCarAccepted = typeCarAccepted
         self.seatsMaterial = seatsMaterial

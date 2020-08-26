@@ -1,6 +1,7 @@
 from uberCar import UberCar
 from account import Account
 from uberX import UberX
+from card import Card
 if __name__ == "__main__":
 
     uberDriver = Account("Fernando Lagunes","INE")
@@ -9,3 +10,6 @@ if __name__ == "__main__":
 
     Jetta = UberX("UWJ810",uberDriver,"VolksWagen","2003")
     print(vars(Jetta))
+
+    ferPayment = Card(82.32,"3333333333333","","")
+    print(vars(ferPayment))
