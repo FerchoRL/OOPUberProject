@@ -1,15 +1,13 @@
 package Java;
-
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 class Main {
     public static void main(final String[] args) {
         //TODO: Etiqueta para resaltar algo pendiente
-        Account uberAccount = new Account("Fernando Ramila","INE","rlfernando7@gmail.com","12345");
+        Account uberAccount = new User("Fernando Ramila","INE","rlfernando7@gmail.com","12345");
         UberCar mazda = new UberCar("AMQ123",uberAccount);
         mazda.passenger = 4;
-        //mazda.printDataCar();
+        mazda.printDataCar();
 
         // Instantiate a Date object. Use F to fotmat 2004-02-09
         Date date = new Date();
