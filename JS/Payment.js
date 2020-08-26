@@ -1,7 +1,10 @@
 class Payment{
-    constructor(){
+    constructor(ammount){
         this.id;
-        this.init;
-        this.end;
+        this.ammount = ammount;
+    }
+
+    printInfoPayment() {
+        console.log("Charge ammount: " + this.ammount);
     }
 }
