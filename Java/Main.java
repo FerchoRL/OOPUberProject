@@ -5,8 +5,7 @@ class Main {
     public static void main(final String[] args) {
         //TODO: Etiqueta para resaltar algo pendiente
         Account uberAccount = new User("Fernando Ramila","INE","rlfernando7@gmail.com","12345");
-        UberCar mazda = new UberCar("AMQ123",uberAccount);
-        mazda.passenger = 4;
+        UberVan mazda = new UberVan("AMQ123",uberAccount,5);
         mazda.printDataCar();
 
         // Instantiate a Date object. Use F to fotmat 2004-02-09
